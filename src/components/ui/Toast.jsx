@@ -1,4 +1,4 @@
-import { cn } from '../../lib/Utils';
+import { cn } from '../../lib/Utils.js';
 import * as ToastPrimitives from '@radix-ui/react-toast';
 import { cva } from 'class-variance-authority';
 import { X } from 'lucide-react';
