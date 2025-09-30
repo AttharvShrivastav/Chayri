@@ -5,9 +5,7 @@ const path = require('path');
 
 module.exports = {
 	darkMode: ['class'],
-	content: [
-		path.resolve(__dirname, 'src/**/*.{js,jsx}')
-	],
+	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
 		container: {
 			center: true,
