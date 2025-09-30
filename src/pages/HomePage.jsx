@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Search, Filter, Coffee, Heart, Clock } from 'lucide-react';
-import { Button } from '../components/ui/button';
+import { Button } from '../components/ui/Button';
 import { toast } from '../components/ui/use-toast';
 import ChayriCard from '../components/ChayriCard';
 import SearchFilter from '../components/SearchFilter';
