@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Video, Heart } from 'lucide-react';
-import { Button } from '../components/ui/button';
-import { toast } from '../components/ui/use-toast';
+import { Button } from '../components/ui/Button';
+import { toast } from '../components/ui/Use-toast';
 
 const GalleryPage = () => {
   const handleVideoClick = () => {
