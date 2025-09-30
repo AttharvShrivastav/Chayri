@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tea-brown: #8B4513;
+  --tea-light: #D2B48C;
+  --tea-cream: #F5F5DC;
+  --tea-dark: #654321;
+  --tea-gold: #DAA520;
+}
+
+body {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  @apply bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 text-amber-900;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(139, 69, 19, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(218, 165, 32, 0.1) 0%, transparent 50%);
+}
+
+.tea-pattern {
+  background-image: 
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D2B48C' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.chat-bubble-left {
+  @apply bg-gradient-to-r from-amber-100 to-orange-100 border-l-4 border-amber-400 rounded-r-2xl rounded-tl-2xl shadow-md;
+}
+
+.chat-bubble-right {
+  @apply bg-gradient-to-l from-yellow-100 to-amber-100 border-r-4 border-yellow-400 rounded-l-2xl rounded-tr-2xl shadow-md;
+}
+
+.devanagari-text {
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
