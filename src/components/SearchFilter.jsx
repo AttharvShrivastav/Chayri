@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, Filter, X } from 'lucide-react';
-import { Button } from './ui/Button';  // updated import path
+import { Button } from './ui/Button';
 
 const SearchFilter = ({ searchTerm, setSearchTerm, selectedTag, setSelectedTag, allTags }) => {
   return (
