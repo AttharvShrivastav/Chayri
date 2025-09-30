@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import app from './app';
 import './index.css';
-import { Toaster } from './components/ui/toaster';
+import { Toaster } from './components/ui/Toaster';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
