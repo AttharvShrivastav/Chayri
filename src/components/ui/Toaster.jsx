@@ -6,7 +6,7 @@ import {
 	ToastTitle,
 	ToastViewport,
 } from './Toast';    // changed from '@/components/ui/toast'
-import { useToast } from './use-toast';  // changed from '@/components/ui/use-toast'
+import { useToast } from './Use-toast';  
 import React from 'react';
 
 
