@@ -5,7 +5,7 @@ import {
 	ToastProvider,
 	ToastTitle,
 	ToastViewport,
-} from './toast';    // changed from '@/components/ui/toast'
+} from './Toast';    // changed from '@/components/ui/toast'
 import { useToast } from './use-toast';  // changed from '@/components/ui/use-toast'
 import React from 'react';
 
